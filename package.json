@@ -1,0 +1,25 @@
+{
+  "name": "sp-module-support",
+  "version": "1.0.0",
+  "description": "TicMallorca Support Module",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ticmallorca/sp-module-support.git"
+  },
+  "keywords": [
+    "support",
+    "module",
+    "services",
+    "platform"
+  ],
+  "author": "Alejandro Villen Hernandez",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/ticmallorca/sp-module-support/issues"
+  },
+  "homepage": "https://github.com/ticmallorca/sp-module-support#readme"
+}

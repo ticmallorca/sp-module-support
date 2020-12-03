@@ -1,0 +1,61 @@
+<li class="nav-item"><a href="#" data-toggle="modal" data-target="#modal_ticmSupport" class="navbar-nav-link"><i
+			class="icon-lifebuoy mr-2"></i>
+		<%= module.ticmSupport.language[page.lang].footer_title %></a></li>
+
+
+<div id="modal_ticmSupport" class="modal fade" tabindex="-1">
+	<div class="modal-dialog">
+		<div class="modal-content">
+			<div class="modal-header">
+				<h5 class="modal-title"><%= module.ticmSupport.language[page.lang].dialog_title %></h5>
+				<button type="button" class="close" data-dismiss="modal">&times;</button>
+			</div>
+			<div class="modal-body">
+				<div class="form-group row">
+					<label
+						class="col-lg-3 col-form-label"><%= module.ticmSupport.language[page.lang].dialog_department %>
+					</label>
+					<div class="col-lg-9">
+
+						<select id="ticmSupport_categoryField"
+							data-placeholder="<%= module.ticmSupport.language[page.lang].dialog_department_placeholder %>"
+							class="form-control form-control-select2" data-fouc>
+							<option></option>
+							<% for (var i in module.ticmSupport.settings.categories) { %>
+							<option value="<%= module.ticmSupport.settings.categories[i].id%>">
+								<%= module.ticmSupport.settings.categories[i].name%>
+							</option>
+							<% } %>
+						</select>
+
+					</div>
+				</div>
+
+				<div class="form-group row">
+					<label
+						class="col-lg-3 col-form-label"><%= module.ticmSupport.language[page.lang].dialog_description %>
+					</label>
+					<div class="col-lg-9">
+						<textarea id="ticmSupport_descriptionField" rows="10" cols="5" class="form-control"
+							placeholder="<%= module.ticmSupport.language[page.lang].dialog_description_placeholder %>"></textarea>
+					</div>
+				</div>
+
+				<div class="form-group row">
+					<label
+						class="col-lg-3 col-form-label"><%= module.ticmSupport.language[page.lang].dialog_phone %>
+					</label>
+					<div class="col-lg-9">
+						<input id="ticmSupport_phoneField" class="form-control" type="number" name="">
+					</div>
+				</div>
+
+				<div class="text-right">
+					<button id="ticmSupport_ButtonForm" type="submit"
+						class="btn btn-primary"><%= module.ticmSupport.language[page.lang].dialog_send_button %> <i
+							class="icon-paperplane ml-2"></i></button>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>

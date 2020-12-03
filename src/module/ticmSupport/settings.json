@@ -1,0 +1,58 @@
+{
+	"name": "ticmSupport",
+	"version": "1.0.0",
+	"link": "/",
+	"settings": {
+		"entities": {}
+	},
+	"language": {
+		"en": {},
+		"ca": {},
+		"es": {}
+	},
+	"component": {
+		"footer": {
+			"name": "footer",
+			"dependencies": {
+				"css": [],
+				"javascript": [
+					"/resources/js/plugins/notifications/noty.min.js",
+					"/resources/js/plugins/notifications/jgrowl.min.js",
+					"/resources/js/plugins/notifications/bootbox.min.js",
+					"/resources/js/plugins/forms/inputs/autosize.min.js",
+					"/resources/js/plugins/forms/selects/select2.min.js",
+					"/resources/js/plugins/forms/styling/uniform.min.js",
+					"/resources/js/plugins/media/fancybox.min.js",
+					"/js/tools/notify.js",
+					"/module/ticmSupport/js/footer/form_controls_extended.js",
+					"/module/ticmSupport/js/footer/form_checkboxes_radios.js",
+					"/module/ticmSupport/js/footer/form_floating_labels.js",
+					"/module/ticmSupport/js/footer/footer.js",
+					"/module/ticmSupport/js/footer/view.js",
+					"/module/ticmSupport/js/footer/controller.js"
+				]
+			}
+		},
+		"dashboardInfo": {
+			"name": "dashboardInfo",
+			"dependencies": {
+				"css": [],
+				"javascript": [
+					"/resources/js/plugins/notifications/noty.min.js",
+					"/resources/js/plugins/notifications/jgrowl.min.js",
+					"/resources/js/plugins/notifications/bootbox.min.js",
+					"/resources/js/plugins/forms/inputs/autosize.min.js",
+					"/resources/js/plugins/forms/selects/select2.min.js",
+					"/resources/js/plugins/forms/styling/uniform.min.js",
+					"/resources/js/plugins/media/fancybox.min.js",
+					"/js/tools/notify.js",
+					"/module/ticmSupport/js/dashboardInfo/dashboardInfo.js"
+				]
+			}
+		}
+	},
+	"dependencies": {
+		"css": [],
+		"javascript": []
+	}
+}

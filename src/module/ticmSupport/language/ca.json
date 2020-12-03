@@ -1,0 +1,25 @@
+{
+	"module": "escriptori",
+	"author": {
+		"author": "Alejandro Villén Hernández",
+		"git": "https://gitlab.com/alejandrovildez"
+	},
+	"contributors": [{
+		"author": "Alejandro Villén Hernández",
+		"git": "https://gitlab.com/alejandrovildez"
+	}],
+	"version": "v1.0.0",
+	"footer_title": "Centre de Suport",
+	"dialog_title": "Què podem fer per tu?",
+	"dialog_department": "Departament",
+	"dialog_department_placeholder": "Tria un departament",
+	"dialog_description": "Descripció",
+	"dialog_phone": "Telèfon",
+	"dialog_description_placeholder": "Per favor, escriu quin és el teu problema.",
+	"dialog_send_button": "Enviar",
+	"dashboardInfo_title":"Centre de Suport",
+	"dashboardInfo_description":"Aquests són els estats de les seves consultes o incidències que ha fet arribar a Tic Mallorca.",
+	"dashboardInfo_pending":"pendients",
+	"dashboardInfo_inprogress":"en progrés",
+	"dashboardInfo_done":"resoltes"
+}

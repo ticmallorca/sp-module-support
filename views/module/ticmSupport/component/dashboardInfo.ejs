@@ -1,0 +1,32 @@
+<div class="card">
+    <div class="card-header header-elements-inline">
+        <h5 class="card-title">
+            <i class="icon-statistics mr-2"></i>
+            <%= module.ticmSupport.language[page.lang].dashboardInfo_title %> </h5>
+    </div>
+    <div class="card-body pb-3">
+        <p class="mb-3"><%= module.ticmSupport.language[page.lang].dashboardInfo_description %></p>
+        <div class="row text-center">
+            <div class="col-4">
+                <p><i class="icon-alert icon-2x d-inline-block text-danger"></i></p>
+                <h5 id="ticmSupport-pending" class="font-weight-semibold mb-0">-</h5>
+                <span
+                    class="text-muted font-size-xs"><%= module.ticmSupport.language[page.lang].dashboardInfo_pending %></span>
+            </div>
+
+            <div class="col-4">
+                <p><i class="icon-hammer-wrench icon-2x d-inline-block text-warning"></i></p>
+                <h5 id="ticmSupport-inprogress" class="font-weight-semibold mb-0">-</h5>
+                <span
+                    class="text-muted font-size-xs"><%= module.ticmSupport.language[page.lang].dashboardInfo_inprogress %></span>
+            </div>
+
+            <div class="col-4">
+                <p><i class="icon-checkmark4 icon-2x d-inline-block text-success"></i></p>
+                <h5 id="ticmSupport-done" class="font-weight-semibold mb-0">-</h5>
+                <span
+                    class="text-muted font-size-xs"><%= module.ticmSupport.language[page.lang].dashboardInfo_done %></span>
+            </div>
+        </div>
+    </div>
+</div>

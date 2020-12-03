@@ -1,0 +1,27 @@
+{
+	"module": "dashboard",
+	"author": {
+		"author": "Alejandro Villén Hernández",
+		"git": "https://gitlab.com/alejandrovildez"
+	},
+	"contributors": [{
+		"author": "Alejandro Villén Hernández",
+		"git": "https://gitlab.com/alejandrovildez"
+	}],
+	"version": "v1.0.0",
+	"footer_title": "Support Center",
+	"dialog_title": "What can we do for you?",
+	"dialog_department": "Department",
+	"dialog_department_placeholder": "Choose one department",
+	"dialog_description": "Description",
+	"dialog_phone": "Phone number",
+	"dialog_description_placeholder": "Please, explain us your issue.",
+	"dialog_send_button": "Send",
+	"dashboardInfo_title":"Support Center",
+	"dashboardInfo_description":"Here we show you your questions or issues sended to Tic Mallorca.",
+	"dashboardInfo_pending":"pending",
+	"dashboardInfo_inprogress":"in progress",
+	"dashboardInfo_done":"done"
+
+
+}
